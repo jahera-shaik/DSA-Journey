@@ -17,3 +17,7 @@ class Solution {
         return new int[] {};
     }
 }
+// LeetCode 1: Two Sum
+// Approach: Brute Force
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
