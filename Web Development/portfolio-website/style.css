@@ -1,0 +1,180 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 15px 40px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* ================= HERO SECTION ================= */
+.hero-section {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.hero-section h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero-section .name {
+    color: #00bcd4;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.intro {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    color: #666;
+}
+
+/* Buttons */
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttons a:first-child {
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.buttons a:last-child {
+    border: 2px solid #00bcd4;
+    color: #00bcd4;
+}
+
+.buttons a:hover {
+    opacity: 0.85;
+}
+
+/* ================= SECTIONS ================= */
+section {
+    padding: 60px 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+section p {
+    color: #555;
+}
+
+/* ================= SKILLS ================= */
+#skills ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#skills li {
+    margin-bottom: 8px;
+}
+
+/* ================= PROJECTS ================= */
+#projects div {
+    background: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#projects h3 {
+    margin-bottom: 8px;
+}
+
+#projects a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* ================= CONTACT ================= */
+#contact a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section h1 {
+        font-size: 32px;
+    }
+}
